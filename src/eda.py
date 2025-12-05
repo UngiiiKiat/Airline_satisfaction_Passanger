@@ -25,7 +25,7 @@ def run():
   st.write ('Page ini dibuat oleh ranggakiat')
 
 # Load Data
-  df = pd.read_csv('airline_prediction.csv')
+  df = pd.read_csv('src/airline_prediction.csv')
   # Tampilin Dataframe
   st.dataframe(df)
 

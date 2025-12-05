@@ -12,7 +12,8 @@ def run():
   st.markdown('<p style="font-size: 20px; font-weight: bold;">Eksplorasi Data untuk menganalisa Dataset Airline Passenger Satisfaction</p>', unsafe_allow_html=True)
 
 # Tambahkan gambar
-  image = Image.open('ipi.jpeg')
+  image = Image.open('src/ipi.jpeg')
+
 
   st.image(
      image,
@@ -24,7 +25,7 @@ def run():
   st.write ('Page ini dibuat oleh ranggakiat')
 
 # Load Data
-  df = pd.read_csv('airline_prediction.csv')
+  df = pd.read_csv('src/airline_prediction.csv')
   # Tampilin Dataframe
   st.dataframe(df)
 

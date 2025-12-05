@@ -12,7 +12,8 @@ def run():
   st.markdown('<p style="font-size: 20px; font-weight: bold;">Eksplorasi Data untuk menganalisa Dataset Airline Passenger Satisfaction</p>', unsafe_allow_html=True)
 
 # Tambahkan gambar
-  image = Image.open('ipi.jpeg')
+  image = Image.open('src/ipi.jpeg')
+
 
   st.image(
      image,

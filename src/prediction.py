@@ -7,7 +7,7 @@ import numpy as np
 @st.cache_resource
 def load_pipeline():
     try:
-        model = joblib.load('rf_satisfaction_model.joblib')
+        model = joblib.load('src/rf_satisfaction_model.joblib')
         return model
     except FileNotFoundError:
         st.error("file hilang")
